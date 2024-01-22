@@ -1,0 +1,1 @@
+select sucursal_id, sum(cantidad) from stock s group by sucursal_id ;
