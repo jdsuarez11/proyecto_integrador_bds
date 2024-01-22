@@ -1,0 +1,1 @@
+select cliente_id, sum(total) as total_cliente from orden o group by cliente_id ;
